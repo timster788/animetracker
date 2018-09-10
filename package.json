@@ -1,0 +1,6 @@
+{
+    "name": "anime-tracker",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}
