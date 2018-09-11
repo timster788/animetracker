@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "anime-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,8 @@
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
+    "pg": "^7.4.3",
+    "pg-promise": "^8.4.6",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-router-dom": "^4.3.1",
@@ -18,5 +20,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timster788/animetracker.git"
+  },
+  "author": "Timothy Dao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timster788/animetracker/issues"
+  },
+  "homepage": "https://github.com/timster788/animetracker#readme"
 }
